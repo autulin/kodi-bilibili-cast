@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: service.bili.cast\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "#30000"
+msgid "General"
+msgstr "General"
+
+msgctxt "#30001"
+msgid "Device name"
+msgstr "Device name"
+
+msgctxt "#30002"
+msgid "HTTP/NVA port"
+msgstr "HTTP/NVA port"
+
+msgctxt "#30003"
+msgid "Enable SSDP discovery"
+msgstr "Enable SSDP discovery"
+
+msgctxt "#30010"
+msgid "Danmaku"
+msgstr "Danmaku"
+
+msgctxt "#30011"
+msgid "Danmaku area"
+msgstr "Danmaku area"
+
+msgctxt "#30012"
+msgid "Danmaku font size"
+msgstr "Danmaku font size"
+
+msgctxt "#30013"
+msgid "Danmaku opacity"
+msgstr "Danmaku opacity"
+
+msgctxt "#30014"
+msgid "Maximum danmaku lines"
+msgstr "Maximum danmaku lines"
+
+msgctxt "#30020"
+msgid "Compatibility"
+msgstr "Compatibility"
+
+msgctxt "#30021"
+msgid "Disable MediaCodec surface (recommended on Amlogic)"
+msgstr "Disable MediaCodec surface (recommended on Amlogic)"

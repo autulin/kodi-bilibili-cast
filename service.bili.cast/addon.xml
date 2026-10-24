@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.bili.cast"
+       name="Bili Cast"
+       version="0.2.0"
+       provider-name="kodi-bili-cast">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Bilibili NVA/DLNA cast receiver</summary>
+    <summary lang="zh_CN">B站哔哩必连/DLNA投屏接收端</summary>
+    <description lang="en_GB">Receive Bilibili mobile casts over the Nirvana (NVA) protocol and play them in Kodi with danmaku subtitles. Discovery, playback, pause/resume/seek, volume and quality switching are supported.</description>
+    <description lang="zh_CN">通过哔哩必连（NVA）私有协议接收 B 站手机投屏，在 Kodi 中播放并显示弹幕。支持设备发现、播放、暂停/继续、拖动、音量和清晰度切换。</description>
+    <disclaimer lang="en_GB">Unofficial third-party addon. Not affiliated with or endorsed by Bilibili. For personal use with your own account only.</disclaimer>
+    <disclaimer lang="zh_CN">非官方第三方插件，与哔哩哔哩无关联。仅供个人在自有设备上接收自己账号的投屏内容。</disclaimer>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>

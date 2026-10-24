@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="30000">
+    <setting id="friendly_name" type="text" label="30001" default="我的小电视"/>
+    <setting id="port" type="number" label="30002" default="9958"/>
+    <setting id="enable_ssdp" type="bool" label="30003" default="true"/>
+  </category>
+  <category label="30010">
+    <setting id="danmaku_area" type="enum" label="30011" values="1/4|1/2|3/4|全屏" default="0"/>
+    <setting id="danmaku_font_size" type="slider" label="30012" range="24,4,72" option="int" default="48"/>
+    <setting id="danmaku_opacity" type="slider" label="30013" range="40,5,100" option="int" default="85"/>
+    <setting id="danmaku_max_lines" type="slider" label="30014" range="2,1,10" option="int" default="4"/>
+  </category>
+  <category label="30020">
+    <setting id="compat_disable_surface" type="bool" label="30021" default="true"/>
+  </category>
+</settings>
